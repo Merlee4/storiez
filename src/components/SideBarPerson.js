@@ -10,8 +10,8 @@ export default function SideBarPerson() {
         <div className="rounded-full w-2/6 h-2/6 absolute bg-green-400 bottom-0 border border-green-900 "></div>
       </div>
       <div className="ml-2">
-        <p className="hidden xlg:flex">Riley</p>
-        <p className="text-xs">Active now</p>
+        <p className="hidden xl:flex">Riley</p>
+        <p className="hidden xl:flex text-xs">Active now</p>
       </div>
     </div>
   );

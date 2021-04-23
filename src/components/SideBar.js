@@ -15,7 +15,7 @@ export default function SideBar() {
 
       {/* FRIENDS LIST */}
       <p className="font-semibold text-xl">Your Friends</p>
-      <div className="flex flex-col gap-4 overflow-y-scroll no-scrollbar py-4 smooth-scroll">
+      <div className="flex flex-col gap-4 overflow-y-auto py-4 smooth-scroll no-scrollbar">
         <SideBarPerson />
         <SideBarPerson />
         <SideBarPerson />

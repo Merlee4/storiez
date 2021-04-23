@@ -1,4 +1,6 @@
-export default function Card() {
+import { ReplyIcon } from "@heroicons/react/outline";
+
+export default function Card({ src }) {
   const Owner = () => {
     return (
       <div className="flex">
@@ -20,17 +22,20 @@ export default function Card() {
     );
   };
   return (
-    <div className="py-2 ml-2 h-full w-full">
-      <div className="relative h-3/6 w-96 lg:w-3/6 lg:h-3/6 cursor-pointer bg-white  ">
+    <div className="group py-2 ml-2 flex flex-col border shadow-sm cursor-pointer transition hover:border-gray-400 rounded duration-150">
+      <div className="cursor-pointer bg-white ">
         <Owner />
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdac0Z3-RPtZLTjHJH49GRB5yx1lJkrfUz4w&usqp=CAU"
+          src={src}
           alt="profile"
-          className="object-cover w-screen h-full"
+          className="object-cover lg:w-full lg:h-96 md:w-full md:h-48 w-full h-96 object-top"
         />
-        <div className="absolute -bottom-1 -left-1 right-0 bg-white p-2">
-          <p className="text-sm truncate w-28">Add your text</p>
-        </div>
+      </div>
+      <div className="bg-white p-2 flex justify-between w-full">
+        <p className="text-sm truncate w-28">Add your text</p>
+        <duv className="">
+          <ReplyIcon className="h-6 text-white bg-white rounded-full p-1 group-hover:bg-gray-400 transform ease-in-out duration-200" />
+        </duv>
       </div>
     </div>
   );
