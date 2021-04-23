@@ -1,6 +1,6 @@
 export default function Person() {
   return (
-    <div className="h-12 w-12 flex flex-col items-ceneter p-1">
+    <div className="h-12 w-12 flex flex-col items-ceneter p-1 cursor-pointer">
       <div className="relative">
         <img
           src="https://m.media-amazon.com/images/I/81B5c6m0jaL._SS500_.jpg"

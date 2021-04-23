@@ -1,4 +1,3 @@
-import Button from "./Button";
 import React from "react";
 import SideBarPerson from "./SideBarPerson";
 import AddFriendIcon from "./AddFriendIcon";

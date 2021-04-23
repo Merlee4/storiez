@@ -1,4 +1,4 @@
-import { PlusIcon, ReplyIcon } from "@heroicons/react/outline";
+import { PlusIcon } from "@heroicons/react/outline";
 
 export default function Card({ src }) {
   const Owner = () => {

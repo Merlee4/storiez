@@ -1,5 +1,3 @@
-import Button from "./Button";
-
 import React from "react";
 import Person from "./Person";
 import AddFriendIcon from "./AddFriendIcon";

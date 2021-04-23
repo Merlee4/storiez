@@ -1,5 +1,3 @@
-import { ReplyIcon } from "@heroicons/react/outline";
-
 export default function EmpryCard({ src }) {
   const Owner = () => {
     return (
