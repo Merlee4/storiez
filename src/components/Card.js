@@ -1,6 +1,6 @@
 import { ReplyIcon } from "@heroicons/react/outline";
 
-export default function Card({ src }) {
+export default function EmpryCard({ src }) {
   const Owner = () => {
     return (
       <div className="flex">
@@ -33,9 +33,6 @@ export default function Card({ src }) {
       </div>
       <div className="bg-white p-2 flex justify-between w-full">
         <p className="text-sm truncate w-28">Add your text</p>
-        <duv className="">
-          <ReplyIcon className="h-6 text-white bg-white rounded-full p-1 group-hover:bg-gray-400 transform ease-in-out duration-200" />
-        </duv>
       </div>
     </div>
   );
