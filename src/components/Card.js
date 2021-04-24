@@ -20,7 +20,10 @@ export default function EmpryCard({ src, users }) {
     );
   };
   return (
-    <div className="group py-2 ml-2 flex flex-col border shadow-sm cursor-pointer transition hover:border-gray-400 rounded duration-150">
+    <div
+      className="group py-2 ml-2 flex flex-col border shadow-sm cursor-pointer transition hover:border-gray-400 rounded duration-150"
+      style={{ WebkitTapHighlightColor: "transparent" }}
+    >
       <div className="cursor-pointer bg-white ">
         <Owner />
         <img

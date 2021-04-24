@@ -5,6 +5,7 @@ export default function Person() {
         <img
           src="https://www.itsretunes.com/trinah_files/retunes_Trinah_no_matter.jpg"
           className="rounded-full h-full w-full"
+          style={{ outline: "none" }}
           alt="person"
         />
         <div className="rounded-full w-2/6 h-2/6 absolute bg-green-400 bottom-0 border border-green-900 "></div>
