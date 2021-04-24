@@ -3,7 +3,7 @@ export default function SideBarPerson() {
     <div className="w-full flex cursor-pointer px-2 rounded hover:bg-gray-100 duration-200 ease-in-out transition">
       <div className="relative">
         <img
-          src="https://m.media-amazon.com/images/I/81B5c6m0jaL._SS500_.jpg"
+          src="https://www.itsretunes.com/trinah_files/retunes_Trinah_no_matter.jpg"
           className="rounded-full h-12 w-12"
           alt="person"
         />
