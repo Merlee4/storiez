@@ -31,7 +31,7 @@ export default function Home() {
 
             {/* CARDS */}
             <main
-              className="p-10  pt-0 lg:pt-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 no-scrollbar smooth-scroll lg:ml-10 "
+              className="p-10  pt-0 lg:pt-10 grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 no-scrollbar smooth-scroll lg:ml-10 "
               style={{ scrollSnapType: "x" }}
             >
               <EmptyCard src="https://media-exp1.licdn.com/dms/image/C4D03AQFAKUjQ8zIsFA/profile-displayphoto-shrink_200_200/0/1611671601557?e=1622073600&v=beta&t=XZWn5RALkSWOjbCVROOa7OobGY4ouLjPnYs1gy5NTZ4" />

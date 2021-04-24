@@ -2,7 +2,10 @@ import { PlusIcon } from "@heroicons/react/outline";
 
 export default function AddFriendIcon() {
   return (
-    <div className="w-full flex items-center cursor-pointer">
+    <div
+      className="w-full flex items-center cursor-pointer"
+      onClick={() => alert("add friend")}
+    >
       <div className="relative ">
         <PlusIcon
           src="https://m.media-amazon.com/images/I/81B5c6m0jaL._SS500_.jpg"
