@@ -5,7 +5,7 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/home" component={Home} />
+        <Route path="/" component={Home} />
         <Route path="/people" component={People} />
       </Switch>
     </Router>
