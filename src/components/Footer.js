@@ -1,5 +1,6 @@
 import React from "react";
 import AddFriendIcon from "./AddFriendIcon";
+import Person from "./Person";
 
 export default function Footer() {
   return (
@@ -14,6 +15,22 @@ export default function Footer() {
         <div>
           <AddFriendIcon />
         </div>
+        <Person />
+        <Person />
+        <Person />
+        <Person />
+        <Person />
+        <Person />
+        <Person />
+        <Person />
+        <Person />
+        <Person />
+        <Person />
+        <Person />
+        {/* KEEPS THE LIST FROM THE GRADIDENT */}
+        <div className="mr-4 p-2"></div>
+        {/* GRaDIENT AT END OF LIST */}
+        <div className="w-20 h-12 bg-gradient-to-l from-white absolute right-0"></div>
       </div>
     </div>
   );

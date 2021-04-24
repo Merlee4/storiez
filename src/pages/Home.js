@@ -19,19 +19,19 @@ export default function Home() {
           <div className="text-indigo-900 container mx-auto flex flex-col lg:items-center">
             {/* WELCOME TEXT */}
 
-            <div className="mb-10 p-10 lg:hidden">
+            <div className="mb-10 p-10 pb-0 lg:hidden">
               <h1 className="text-3xl font-bold mb-2">Welcome , Mwelwa!</h1>
               <p className="text-lg opacity-80">
                 see what your friends are doing
               </p>
             </div>
-            <div className="flex lg:hidden pt-0">
+            <div className="flex lg:hidden pt-0 -mb-4">
               <Footer />
             </div>
 
             {/* CARDS */}
             <main
-              className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 no-scrollbar smooth-scroll lg:ml-10 "
+              className="p-10  pt-0 lg:pt-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 no-scrollbar smooth-scroll lg:ml-10 "
               style={{ scrollSnapType: "x" }}
             >
               <EmptyCard src="https://media-exp1.licdn.com/dms/image/C4D03AQFAKUjQ8zIsFA/profile-displayphoto-shrink_200_200/0/1611671601557?e=1622073600&v=beta&t=XZWn5RALkSWOjbCVROOa7OobGY4ouLjPnYs1gy5NTZ4" />

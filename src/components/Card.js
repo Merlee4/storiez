@@ -26,7 +26,7 @@ export default function EmpryCard({ src, users }) {
         <img
           src={src}
           alt="profile"
-          className="object-cover lg:w-full lg:h-96 md:w-full md:h-48 w-full h-96 object-top"
+          className="object-cover lg:w-full lg:h-72  md:w-full md:h-48 w-full h-72 object-top"
         />
       </div>
       <div className="bg-white p-2 flex justify-between w-full">
