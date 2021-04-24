@@ -1,7 +1,7 @@
 <div> align="center">
   <h1 align="center">Storiez 🔥</h1>
 
-  <img src="./Nerl/src/resources/wide-icon-svg.svg" alt="image" align="center"/>
+  <img src="./wide-icon-svg.svg" alt="image" align="center"/>
 
   #### Taking stories to the moon 🚀
 ___
