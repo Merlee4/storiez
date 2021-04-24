@@ -1,4 +1,4 @@
-export default function EmpryCard({ src }) {
+export default function EmpryCard({ src, users }) {
   const Owner = () => {
     return (
       <div className="flex">
@@ -13,7 +13,7 @@ export default function EmpryCard({ src }) {
           </div>
         </div>
         <div>
-          <p className=" text-black">Riley VKACJ</p>
+          <p className=" text-black">Tatiana VKACJ</p>
           <p className="text-sm">Active Now</p>
         </div>
       </div>

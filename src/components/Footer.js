@@ -15,30 +15,6 @@ export default function Footer() {
         <div>
           <AddFriendIcon />
         </div>
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
-        <Person />
       </div>
     </div>
   );

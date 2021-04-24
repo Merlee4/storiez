@@ -9,7 +9,7 @@ export default function Person() {
         />
         <div className="rounded-full w-2/6 h-2/6 absolute bg-green-400 bottom-0 border border-green-900 "></div>
       </div>
-      <p className="tes">Riley</p>
+      <p className="tes">Tatiana</p>
     </div>
   );
 }

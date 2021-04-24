@@ -25,7 +25,7 @@ export default function Home() {
                 see what your friends are doing
               </p>
             </div>
-            <div className="flex lg:hidden">
+            <div className="flex lg:hidden pt-0">
               <Footer />
             </div>
 
