@@ -3,7 +3,7 @@ export default function Person() {
     <div className="h-20 w-12 flex flex-col items-center p-1 cursor-pointer group relative">
       <div className="relative">
         <img
-          src="https://m.media-amazon.com/images/I/81B5c6m0jaL._SS500_.jpg"
+          src="https://www.itsretunes.com/trinah_files/retunes_Trinah_no_matter.jpg"
           className="rounded-full h-full w-full"
           alt="person"
         />
